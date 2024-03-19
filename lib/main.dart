@@ -11,6 +11,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: "Food App",
+      theme: ThemeData(splashColor: Colors.transparent, highlightColor: Colors.transparent,),
       home: const Home(),
     );
   }
